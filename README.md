@@ -1,7 +1,3 @@
-# UK Medical Jobs — Admin Web Panel
-
-Vue 3 + Vite + Tailwind CSS admin dashboard for managing the UK Medical Jobs platform.
-
 ## Stack
 - Vue 3 (Composition API)
 - Vite 5
@@ -41,5 +37,4 @@ npm run build
 | Broadcasts | Send push notifications to user segments |
 | Reports | Revenue, profession, application charts + CSV export |
 
-## Auth
-Admin-only. Uses Laravel Sanctum Bearer tokens. Non-admin users are blocked at login.
+
