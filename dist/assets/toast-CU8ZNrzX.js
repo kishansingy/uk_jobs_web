@@ -1,0 +1,1 @@
+import{l as i,e as a}from"./vendor-D6Ecskmt.js";const v=i("toast",()=>{const o=a([]);let c=0;function s(e,t="info",u=3500){const n=++c;o.value.push({id:n,message:e,type:t}),setTimeout(()=>r(n),u)}function r(e){o.value=o.value.filter(t=>t.id!==e)}return{toasts:o,success:e=>s(e,"success"),error:e=>s(e,"error"),info:e=>s(e,"info"),remove:r}});export{v as u};
